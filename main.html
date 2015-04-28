@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset ="UTF-8">
+	<link rel = "stylesheet" href = "css/css.css">
+	<title> Shopping List </title>
+	<script src = "js/js.js"></script>
+</head>
+
+<body>
+	<div class = "container">
+		<div class = "masthead">
+				<h1> Shaun's Shopping List </h1>		
+		</div>
+		<div class = "logo">
+			<image src ="images/shoppinglist.png" height ="99%" width ="99%"></image>
+		</div>
+			<div class = "input">
+
+				<h2> Items </h2>
+				<input id = "textbox">
+				<button id = "addbutton" type ="submit"> Add </button>
+				<h3> drag items to sort </h3>
+				<ul id = "shoppinglist" class ="ui-sortable">
+
+					<li class ="itemsStrike"> 
+						<input class = "box" type ="checkbox">
+						<span>Milk</span> 
+						<span class ="delete"></span>
+					</li>
+
+					<li class ="items"> 
+						<input class = "box" type = "checkbox"></input>
+						<span>Steak</span> 
+						<span class ="delete"></span>
+					</li>
+
+					<li class = "items"> 
+						<input class = "box" type = "checkbox"></input>
+						<span>Jelly Beans (raw)</span> 
+						<span class ="delete"></span>
+					</li>
+				</ul>
+				
+			</div>
+			
+		<footer class="footer">
+			
+		</footer>
+	</div>
+
+</body>

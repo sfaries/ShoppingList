@@ -1,0 +1,128 @@
+div {
+	border-style: bold;
+	border-color: red;
+}
+
+body {
+	/*background-color: gray;*/
+}
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.masthead {
+	height: 4em;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: green;
+}
+
+h1 {
+	text-align: center;
+	color: silver;
+	padding-top: .5em;
+}
+
+.logo {
+	margin-top: 1em;
+	width: 10em;
+	height: 10em;
+	margin-left: 45%;
+	margin-right: 45%;
+	border-style: bold;
+	border-color: black;
+}
+
+.input {
+	border-style: dotted;
+	border-color: black;
+	margin-top: 2em;
+	height: 30em;
+	width: 40em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h2 {
+	text-align: center;
+	color: red;
+}
+#textbox {
+	margin-left: 35%;
+	height: 2em;
+	width: 15em;
+}
+
+#addbutton {
+	height: 2em;
+	width: 5em;
+	font-weight: bold;
+	color: white;
+	background-color: green;
+}
+
+h3 {
+	text-align: center;
+	color: red;
+}
+
+#shoppinglist {
+	margin-left: 20%;
+	list-style:none;
+	padding: 1em 1em 1em 1em;
+	text-align: left;
+	font-size:24px;
+}
+
+.items {
+
+}
+
+.box {
+	cursor: pointer;
+	height: 1.75em;
+
+}
+
+.boxChecked {
+	background: url('images/');
+}
+
+.delete {
+	float: right;
+	margin-top: 1.5em;
+	display: none;
+}
+
+.deleteShow {
+
+}
+
+.items li{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.itemsStrike {
+	text-decoration: line-through;
+	color: black;
+}
+
+button {
+	cursor: pointer;
+}
+
+.ui-sortable {
+
+}
+
+.footer {
+	margin-top: 5em;
+	height: 2.5em;
+	width: auto;
+	background-color: gray;
+	border-style: solid;
+	border-color: black;
+}
