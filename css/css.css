@@ -4,7 +4,7 @@ div {
 }
 
 body {
-	/*background-color: gray;*/
+	background-color: lightgray;
 }
 .container {
 	width: 100%;
@@ -21,7 +21,7 @@ body {
 
 h1 {
 	text-align: center;
-	color: silver;
+	color: white;
 	padding-top: .5em;
 }
 
@@ -36,8 +36,9 @@ h1 {
 }
 
 .input {
-	border-style: dotted;
+	border-style: solid;
 	border-color: black;
+	background-color: white;
 	margin-top: 2em;
 	height: 30em;
 	width: 40em;
@@ -47,12 +48,13 @@ h1 {
 
 h2 {
 	text-align: center;
-	color: red;
+	color: Black;
 }
 #textbox {
 	margin-left: 35%;
 	height: 2em;
 	width: 15em;
+	background-color:lightgray;
 }
 
 #addbutton {
@@ -65,7 +67,7 @@ h2 {
 
 h3 {
 	text-align: center;
-	color: red;
+	color: black;
 }
 
 #shoppinglist {
@@ -77,23 +79,20 @@ h3 {
 }
 
 .items {
-
+color: black;
 }
 
 .box {
 	cursor: pointer;
-	height: 1.75em;
+	height: 1.80em;
 
 }
 
-.boxChecked {
-	background: url('images/');
-}
 
 .delete {
 	float: right;
-	margin-top: 1.5em;
-	display: none;
+	background-color: lightgray;
+	display: ;
 }
 
 .deleteShow {
@@ -107,16 +106,13 @@ h3 {
 
 .itemsStrike {
 	text-decoration: line-through;
-	color: black;
+	color: red;
 }
 
 button {
 	cursor: pointer;
 }
 
-.ui-sortable {
-
-}
 
 .footer {
 	margin-top: 5em;
