@@ -6,7 +6,7 @@ $(document).ready(function(){
 //add button click to append shopping list
 		$('#addbutton').on('click', function(){
 			$("#shoppinglist").append('<li class = "items">' + '<input type = "checkbox" class = "box">' + $text.val() + '<button class = "delete"> X </button>' + '</li>');
-		
+			$('#textbox').val('');
 
 //X button click to delete item
 
