@@ -8,39 +8,26 @@ $(document).ready(function(){
 			$("#shoppinglist").append('<li class = "items">' + '<input type = "checkbox" class = "box">' + $text.val() + '<button class = "delete"> X </button>' + '</li>');
 			$('#textbox').val('');
 
-//X button click to delete item
+			});
 
-		$('.delete').on('click', function(event){
+//Delete item outside of append function
+		$('#shoppinglist').on('click', '.delete', function(event){
 			$(event.target).closest("li").remove();
 			
 			});
 
-//checkbox click to strike shopinglist items using toggle
+//Item strike outside of append function	
+		$('#shoppinglist').on('click', '.box', function(event){
+			$(event.target).closest('li').toggleClass('itemsStrike');
 
-		$('.box').on('click', function(event){
-			$(event.target).closest('li').toggleClass("itemsStrike");
-		
-			});
-	});
-
-//HARDCODED delete and strike
-/*
-		$('.box').on('click', function(event){
-			$(event.target).closest('li').toggleClass("itemsStrike");
-		
 			});
 
-		$('.delete').on('click', function(event){
-			$(event.target).closest("li").remove();
-			
+//Enter button to append ul		
+		$('.input').on('keypress', function(event){
+			if (event.which === 13) {
+				$("#shoppinglist").append('<li class = "items">' + '<input type = "checkbox" class = "box">' + $text.val() + '<button class = "delete"> X </button>' + '</li>');
+				$('#textbox').val('');
+				}
 			});
-*/
 
 });
-
-//Alternate strike code
-/*
-$('li').on('click', function(){
-			$(this).toggleClass('itemsStrike');
-		});
-*/
